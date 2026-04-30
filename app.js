@@ -41,7 +41,7 @@ function showCityValueHelp(currentValue, callback) {
       `;
 
   document.body.appendChild(modal);
-
+// inializing search input
   const searchInput = modal.querySelector(".city-search");
   searchInput.addEventListener("input", (e) => {
     const searchTerm = e.target.value.toLowerCase();
@@ -283,7 +283,7 @@ function openTab(tabName, container) {
     activeTab.style.display = "block";
   }
 }
-
+// Load and display cities list for value help btn 
 function loadCities() {
   return fetch("data/cities.json")
     .then((response) => {
@@ -341,12 +341,14 @@ function loadFruits() {
         fruitList.appendChild(clone);
       });
     })
+
+    // error fetching fruit data handler 
     .catch((error) => {
       console.error("Error loading fruits:", error);
       const fruitList = document.querySelector(".fruit-items");
       if (fruitList) {
         fruitList.innerHTML =
-          '<li class="error">❌ Failed to load fruits. Please check if data/fruits.json exists.</li>';
+          '<li class="error"> Failed to load fruits. Please check if data/fruits.json exists.</li>';
       }
     });
 }
