@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fruits Store - Solex Fiori Assessment" />
+
+    <meta name="author" content="Ahmed Ebeid" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./images/logo.ico"
+    />
+
+    <title>Fruits - Fruit Store</title>
+  </head>
+  <body>
+
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="#"><img src="./images/logo-removebg-preview.png"   target="blank" alt="logo" width="100" height="200"></a>
+
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+         
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+   
+          </ul>
+
+        </div>
+      </nav>
+
+
+
+
+
+    <div class="container">
+      <div class="fruit-list">
+        <ul class="fruit-items"></ul>
+      </div>
+      <div class="fruit-details"></div>
+    </div>
+
+    <!-- Fruit Item Template -->
+
+    <template id="fruit-item-template">
+      <li class="fruit-item">
+        <div class="box box-float">
+          <div class="item-img-container">
+            <img class="box-img" src="" alt="" />
+          </div>
+          <h3 class="fruit-name"></h3>
+          <p class="fruit-category"></p>
+          <span class="fruit-price-unit"></span>
+        </div>
+      </li>
+    </template>
+    <!-- Fruit Detail Template -->
+    <template id="fruit-detail-template">
+      <div class="detail-header">
+        <div></div>
+        <img class="detail-img" src="" alt="" width="150" />
+        <h2 class="detail-name"></h2>
+        <p class="detail-description"></p>
+      </div>
+      <div class="tabs">
+        <button data-tab="supplier-container">Supplier Info</button>
+        <button data-tab="more-data-container">More Data</button>
+      </div>
+
+      <div id="supplier-container" class="tab-content"></div>
+      <div
+        id="more-data-container"
+        class="tab-content"
+        style="display: none"
+      ></div>
+
+      <div class="detail-footer">
+        <button class="save-btn">Save</button>
+        <button class="cancel-btn">Cancel</button>
+      </div>
+    </template>
+    <!-- Fruit Supplier Template -->
+    <template id="fruit-supplier-template">
+      <table class="supplier-table">
+        <thead>
+          <tr>
+            <th>Supplier</th>
+            <th>Since</th>
+            <th>City</th>
+            <th>Contact</th>
+            <th>Phone</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="supplier-name"></td>
+            <td class="supplier-since"></td>
+            <td class="supplier-city"></td>
+            <td class="supplier-contact"></td>
+            <td class="supplier-phone"></td>
+          </tr>
+        </tbody>
+      </table>
+    </template>
+    <!-- Fruit More Data Template -->
+    <template id="fruit-more-data-template">
+      <div>
+        <p><strong>Type:</strong> <span class="more-data-type"></span></p>
+        <p><strong>Price:</strong> <span class="more-data-price"></span></p>
+        <p>
+          <strong>Main Supplier:</strong>
+          <span class="more-data-main-supplier"></span>
+        </p>
+      </div>
+    </template>
+
+    <!-- Script -->
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+{
+  "Fruits": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "category": "Alkaline",
+      "price": 40,
+      "unit": "kg",
+      "image": "https://images.unsplash.com/photo-1713959925337-3a79df64fccd?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A crisp, sweet red fruit that is high in fiber and Vitamin C. Perfect for snacks or baking.",
+      "type": "Pome",
+      "suppliers": [
+        {
+          "name": "Fresh Co.",
+          "sinceWhen": "2018-05-12",
+          "city": "Cairo",
+          "contactPerson": "Ahmed Ali",
+          "phone": "+20 100 000 0000"
+        },
+        {
+          "name": "Delta Farms",
+          "sinceWhen": "2020-01-15",
+          "city": "Alexandria",
+          "contactPerson": "Sara Hassan",
+          "phone": "+20 111 222 3333"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Banana",
+      "category": "Tropical",
+      "price": 12,
+      "unit": "kg",
+      "image": "https://images.unsplash.com/photo-1603052875302-d376b7c0638a?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A long, curved fruit with soft pulpy flesh and yellow skin when ripe. High in potassium.",
+      "type": "Berry",
+      "suppliers": [
+        {
+          "name": "Eco Fruits",
+          "sinceWhen": "2019-11-20",
+          "city": "Giza",
+          "contactPerson": "Ahmed Ebeid",
+          "phone": "+20 122 333 4444"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Mango",
+      "category": "Acidic",
+      "price": 60,
+      "unit": "kg",
+      "image": "https://images.unsplash.com/photo-1732472581875-89ff83f18439?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A juicy stone fruit known for its sweet, tropical flavor and vibrant orange flesh.",
+      "type": "Drupe",
+      "suppliers": [
+        {
+          "name": "Global Harvest",
+          "sinceWhen": "2021-03-10",
+          "city": "Luxor",
+          "contactPerson": "Mona Zaki",
+          "phone": "+20 101 202 3030"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Orange",
+      "category": "Acidic",
+      "price": 25,
+      "unit": "kg",
+      "image": "https://plus.unsplash.com/premium_photo-1670512181061-e24282f7ee78?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A citrus fruit rich in Vitamin C, featuring a tough shiny orange skin and pulpy sections.",
+      "type": "Hesperidium",
+      "suppliers": [
+        {
+          "name": "Citrus King",
+          "sinceWhen": "2017-08-25",
+          "city": "Mansoura",
+          "contactPerson": "Tarek Omar",
+          "phone": "+20 155 666 7777"
+        }
+      ]
+    }
+  ]
+}
